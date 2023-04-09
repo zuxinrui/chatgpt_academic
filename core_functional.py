@@ -68,4 +68,9 @@ def get_core_functions():
             "Prefix":   r"请解释以下代码：" + "\n```\n",
             "Suffix":   "\n```\n",
         },
+        "介绍算法": {
+            "Prefix":   r"Please give an accurate introducion to this algorithm:" + "\n\n",
+            "Suffix":   "\n\n" + "Please use LaTex form in a easy-to-read way. If necessary, you can explain the algorithm pipeline via pseudo code. " +
+                        "Show reference paper links when necessary. ",
+        },
     }
